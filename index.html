@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Pokémon</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="icon" type="image/x-icon" href="img/pokebola.jpg">
+        
+    </head>
+    <body>
+        
+        <header id="cabecera">
+            <div class="logo">
+                <img src="img/pokebola2.jpg">
+                <h1>Pokémon</h1>
+            </div>
+            
+        </header>
+       
+           
+    <section id="flex">
+        <div class="info">
+            <input type="text" name="name" id="name" value="" placeholder="Ingresa el Nombre del pokémon">
+            <button type="button" id="buscar" onclick="getName()">Buscar</button>
+        </div>
+        <div class="pokemon">
+          
+                <h2 id="nombre-pokemon" class="info-pokemon"></h2>
+                <img src="" id="img-pokemon" class="poke-img"  class="info-pokemon">
+                <p id="peso" class="info-pokemon" ></p>
+                <p id="experiencia" class="info-pokemon"></p>
+                <p id="habilidad" class="info-pokemon"></p>
+                <p id="movimientos" class="info-pokemon"></p>
+                <span class="loading">Cargando...</span>
+           
+            
+        </div>
+    </section>
+
+        <!--Scripts-->
+        <script type="text/javascript" src="js/pokemon.js"></script>
+    </body>
+</html>
